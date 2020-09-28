@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+
+body {
+  background-color: #FECA1D;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: white;
+  padding: 15px 25px;
+}
+ a {
+  margin-right: 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+/* Content */
+.content-container{
+  background-color: #FECA1D;
+  padding: 25px;
+}
+

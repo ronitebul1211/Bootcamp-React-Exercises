@@ -1,0 +1,57 @@
+.user-list-container{
+  background-color: wheat;
+  margin-top:15px;
+  border-radius: 15px;
+  border:1px solid black;
+}
+
+.users-list-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(190px, 1fr));
+  gap: 25px;
+  padding: 25px;
+}
+/* Base Mode */
+.user-container{
+  background-color: #FECA1D;
+  border-radius: 15px;
+  border:1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+.user-container .img-container{
+    display: flex;
+    justify-content: center;
+    height: 100px; 
+    width:100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+    background: pink;
+}
+
+.user-container img{
+  height:100%;
+  flex: none;
+}
+
+.user-container .btn-base-mode-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Update Mode */
+.user-container .user-details-form-container {
+  text-align: left;
+}
+.user-container .user-details-form-container .btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
