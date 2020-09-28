@@ -1,0 +1,30 @@
+.user-list-container{
+  background-color: wheat;
+  margin-top:15px;
+  border-radius: 15px;
+  border:1px solid black;
+}
+
+.users-list-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(190px, 1fr));
+  gap: 25px;
+  padding: 25px;
+}
+
+.user-container{
+  background-color: #FECA1D;
+  height: 200px;
+  border-radius: 15px;
+  border:1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.user-container img{
+  height: fit-content;
+  width: fit-content;
+  border-radius: 50%;
+}

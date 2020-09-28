@@ -1,0 +1,14 @@
+form {
+  background: cornsilk;
+  padding: 25px;
+  width: fit-content;
+}
+
+form > div {
+  width: fit-content;
+  padding: 10px; 
+}
+
+form > div:last-child {
+  margin: 0 auto;
+}

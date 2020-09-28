@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.spinner {
+  border: solid #859093;
+  border-top: solid #3acfba;
+  border-radius: 50%;
+  animation-name: spinner;
+  animation-duration: 2s;
+  animation-timing-function: linear; /*animation progresses through the duration of each cycle.*/
+  animation-iteration-count: infinite;
+}
+@keyframes spinner {
+  100% {
+    transform: rotate(360deg);
+  }
+}

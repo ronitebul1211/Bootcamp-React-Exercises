@@ -1,0 +1,30 @@
+.modal-outer{
+  display:grid;
+  background: hsla(50, 100%, 50%, 0.7);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0; 
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /**/
+  pointer-events: none; /* make browser behave like model isn't there */
+  transition: opacity 0.2s;
+}
+.modal-outer.open{
+  opacity: 1;
+  pointer-events: all;
+}
+.modal-inner{
+  max-width: 600px;
+  min-width: 400px;
+  padding: 2rem;
+  min-height: 200px;
+  background: white;
+  transform: translateY(-200%); /* animation starting point */
+  transition: transform 2s;
+}
+.modal-outer.open .modal-inner { /* when modal outer is open select modal inner */
+  transform: translateY(0);
+}
