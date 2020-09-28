@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+
+body {
+  background-color: #FECA1D;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container{
+  background-color: bisque;
+  width: 200px;
+  height: fit fit-content;
+  margin: 25px;
+}
+
+.card-btn {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin: 0 10px 10px 0;
+}
+
